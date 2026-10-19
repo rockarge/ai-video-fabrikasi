@@ -1,4 +1,4 @@
-# HeyGen Video Fabrikası
+# AI Video Fabrikası
 
 Tek bir fotoğrafından ve kendi sesinden, **hiç kamera kullanmadan**, her sahnesi farklı ve absürt bir mekânda geçen (çamaşır makinesinin içi, buzdolabı, arı kovanı, akvaryum, uzay...) konuşan bir Reels/Shorts videosu üretmen için bir Claude skill'i.
 
@@ -6,7 +6,7 @@ Skill seni önce sorularla tanır (amaç, ton, fotoğraf, ses, hangi araçların
 
 ## ⬇️ İndir
 
-**[heygen-video-fabrikasi.zip](https://github.com/rockarge/heygen-video-fabrikasi/releases/latest/download/heygen-video-fabrikasi.zip)**
+**[ai-video-fabrikasi.zip](https://github.com/rockarge/ai-video-fabrikasi/releases/latest/download/ai-video-fabrikasi.zip)**
 
 > Linki **bilgisayardan** aç. Skill, Claude'a bilgisayardan yükleniyor.
 
@@ -15,14 +15,14 @@ Skill seni önce sorularla tanır (amaç, ton, fotoğraf, ses, hangi araçların
 1. Claude'da **Ayarlar > Yetenekler (Capabilities)** bölümünde **"Kod çalıştırma ve dosya oluşturma"** açık olsun.
 2. **[claude.ai/customize/skills](https://claude.ai/customize/skills)** sayfasını aç.
 3. **+** > **Create skill** > **Upload a skill** ile indirdiğin zip'i yükle. Listede açık olduğundan emin ol.
-4. Yeni bir sohbet aç ve yaz: **"HeyGen video fabrikasını başlat."**
+4. Yeni bir sohbet aç ve yaz: **"AI video fabrikasını başlat."**
 
 Önerilen: Claude'da **HeyGen bağlayıcısını** (connector) bağla. Varsa HyperFrames bağlayıcısını da ekle.
 
 ## Claude Code ile
 
 ```bash
-npx skills add rockarge/heygen-video-fabrikasi
+npx skills add rockarge/ai-video-fabrikasi
 ```
 Tam hat için `ffmpeg` kurulu olsun; yazı katmanı için `npx skills add heygen-com/hyperframes`.
 
